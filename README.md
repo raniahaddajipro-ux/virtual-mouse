@@ -1,11 +1,11 @@
-✋ Virtual Mouse - Gesture Control System
+#✋ Virtual Mouse - Gesture Control System
 
 A real-time computer vision application that controls system cursor and volume using hand gestures detected via a standard webcam.
 
-Demo:
+#Demo:
 https://drive.google.com/drive/folders/17PgJw1x7pIKSwcyMxnbq-tnpGRUymwdn?usp=sharing
 
-🚀 Features :
+#🚀 Features :
 Cursor Movement: Move your index finger to control the mouse position with smoothing.
 
 Gesture Clicking: Peace sign (✌️) triggers a single mouse click.
@@ -14,11 +14,11 @@ Volume Control: Pinch (👌) for Volume Down, Wide grasp (🖐️) for Volume Up
 
 Optimized Performance: Uses MediaPipe Lite model for low-latency tracking.
 
-🛠️ Tech Stack :
+#🛠️ Tech Stack :
 Language: Python
 Libraries: OpenCV, MediaPipe, PyAutoGUI, NumPy, Pycaw
 
-⚙️ Installation :
+#⚙️ Installation :
 1.Clone the repo
 git clone https://github.com/YOUR_USERNAME/Virtual-Mouse-Python.gitcd Virtual-Mouse-Python
 2.Create a Virtual Environment (Recommended):
@@ -28,11 +28,14 @@ venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
 3.Install Dependencies :
+
 pip install opencv-python mediapipe pyautogui numpy pycaw comtypes
+
 4.Run the App :
+
 python virtual_mouse.py
 
-🎮 Controls / Gestures :
+#🎮 Controls / Gestures :
 | Gesture | Action |
 | :---: | :---: |
 | ☝️ **Index Up** | Move Cursor |
@@ -41,7 +44,7 @@ python virtual_mouse.py
 | 🖐️ **Thumb + Index (Wide)** | Volume Up |
 | **Press 'Q'** | Quit Application |
 
-📄 License :
+#📄 License :
 This project is open source and available under the MIT License.
 
 
